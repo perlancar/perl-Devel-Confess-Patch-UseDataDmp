@@ -40,7 +40,7 @@ sub patch_data {
 
 =head1 SYNOPSIS
 
- % PERL5OPT=-MDevel::Confess::Patch::UseDataDmp yourscript.pl
+ % PERL5OPT=-MDevel::Confess::Patch::UseDataDmp -MDevel::Confess=dump yourscript.pl
 
 
 =head1 DESCRIPTION
