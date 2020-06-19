@@ -1,13 +1,15 @@
 package Devel::Confess::Patch::UseDataDmp;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
 use strict;
 no warnings;
 
-use Module::Patch 0.12 qw();
+use Module::Patch;
 use base qw(Module::Patch);
 
 our %config;
@@ -46,5 +48,6 @@ sub patch_data {
 =head1 DESCRIPTION
 
 
-
 =head1 SEE ALSO
+
+L<Data::Dmp>
